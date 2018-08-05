@@ -59,7 +59,7 @@ cordic_test_gen:
 	@make -C $(CORDIC_GEN_PATH)
 
 # default rule is to create the library, and compile all the components
-all: common srcs tb_srcs altera_mf cordic_test_gen
+all: common altera_mf srcs tb_srcs cordic_test_gen
 
 .PHONY: common all
 
